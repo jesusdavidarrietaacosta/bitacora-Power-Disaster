@@ -4,7 +4,8 @@
 R/: El problema es que no hay un desleccionador en el codigo, osea agarra pero no suelta. lo que yo haria seria esto
 
 En ofapp.h
-´´´#pragma once
+```
+#pragma once
 #include "ofMain.h"
 
 class Sphere {
@@ -37,11 +38,12 @@ public:
     Sphere* selectedSphere;
 };
 
-´´´
+```
 
 Y en ofapp.cpp
 
-´´´#include "ofApp.h"
+```
+#include "ofApp.h"
 
 // ------------------
 // Implementación Sphere
@@ -112,4 +114,4 @@ void ofApp::mouseReleased(int x, int y, int button) {
     selectedSphere = nullptr;
 }
 
-´´´
+```
