@@ -4,7 +4,7 @@
 R/: El problema es que no hay un desleccionador en el codigo, osea agarra pero no suelta. lo que yo haria seria esto
 
 En ofapp.h
-```
+```c++
 #pragma once
 #include "ofMain.h"
 
@@ -42,7 +42,7 @@ public:
 
 Y en ofapp.cpp
 
-```
+```c++
 #include "ofApp.h"
 
 // ------------------
